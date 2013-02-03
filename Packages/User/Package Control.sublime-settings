@@ -1,0 +1,17 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"DocBlockr",
+		"GBK Encoding Support",
+		"Git",
+		"Markdown Preview",
+		"Package Control",
+		"Theme - Nil",
+		"Theme - Soda",
+		"VintageEx",
+		"ZenCoding"
+	]
+}

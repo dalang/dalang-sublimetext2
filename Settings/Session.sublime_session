@@ -1,0 +1,479 @@
+{
+	"folder_history":
+	[
+		"/home/dalang/Source/gaminder/1",
+		"/home/dalang/Source/gaminder",
+		"/usr/local/Dropbox/Python/GAE/GameReminder"
+	],
+	"last_window_id": 6,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"upd",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						":4",
+						"Set Syntax: camlp4"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/dalang/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/dalang/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/C/Documents and Settings/dongguoxing/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/C/Documents and Settings/dongguoxing/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"gbk",
+					"cursor",
+					"from myapp import app\n",
+					"font",
+					"false",
+					"scheme",
+					"binary",
+					"contains",
+					"ing",
+					"binar",
+					"binary",
+					"true",
+					"show",
+					"tab",
+					"high",
+					"bold",
+					"binary",
+					"Show",
+					"color",
+					"hile",
+					"While",
+					"show",
+					"file",
+					"show",
+					"system",
+					"pplic",
+					"18",
+					"u",
+					"a",
+					"false",
+					"color",
+					"ignored_packages",
+					"ignore"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"incremental_find":
+			{
+				"height": 38.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "#! /usr/bin/python\n# -*- coding: utf-8 -*-\n\nGAMETYPE = ['REGULAR', 'PLAYOFF', 'FINALS']\n\nNBATEAM = ['Atlanta', 'Boston', 'Brooklyn', 'Charlotte', 'Chicago', 'Cleveland', 'Dallas', \n           'Denver', 'Detroit', 'Golden State', 'Houston', 'Indiana', 'LA Clippers',\n           'LA Lakers', 'Memphis', 'Miami', 'Milwaukee', 'Minnesota', 'New Orleans',\n           'New York', 'Oklahoma City', 'Orlando', 'Philadelphia', 'Phoenix', 'Portland', \n           'Sacramento', 'San Antonio', 'Toronto', 'Utah', 'Washington']\n\nNBAABB = ['atl', 'bos', 'bkn', 'cha', 'chi', 'cle', 'dal', 'den', 'det', 'gsw', 'hou', 'ind', 'lac', 'lal', 'mem', 'mia', 'mil', 'min', 'nor', 'nyk', 'okc', 'orl', 'phi', 'pho', 'por', 'sac', 'sas', 'tor', 'uth', 'was']\nNBACHS = ['老鹰', '凯尔特人', '篮网', '山猫', '公牛', '骑士', '小牛', '掘金', '活塞', '勇士', '火箭',\n          '步行者', '快船', '湖人', '灰熊', '热火', '雄鹿', '森林狼', '黄蜂', '尼克斯', '雷霆', '魔术',\n          '76人', '太阳', '开拓者', '国王', '马刺', '猛龙', '爵士', '奇才']\n\nNBAFULLTN = {'chi':'Chicago Bulls', 'cle':'Cleveland Cavaliers', 'det':'Detroit Pistons', 'ind':'Indiana Pacers', 'mil':'Milwaukee Bucks', \n             'dal':'Dallas Mavericks', 'hou':'Houston Rockets', 'mem':'Memphis Grizzlies', 'nor':'New Orleans Hornets', 'sas':'San Antonio Spurs', \n             'atl':'Atlanta Hawks', 'cha':'Charlotte Bobcats', 'mia':'Miami Heat', 'orl':'Orlando Magic', 'was':'Washington Wizards', \n             'den':'Denver Nuggets', 'min':'Minnesota Timberwolves', 'okc':'Oklahoma City Thunder', 'por':'Portland Trail Blazers', 'uth':'Utah Jazz', \n             'bos':'Boston Celtics', 'bkn':'Brooklyn Nets', 'nyk':'New York Knicks', 'phi':'Philadelphia 76ers', 'tor':'Toronto Raptors', \n             'gsw':'Golden State Warriors', 'lac':'Los Angeles Clippers', 'lal':'Los Angeles Lakers', 'pho':'Phoenix Suns', 'sac':'Sacramento Kings'}\n\nNBADIVISION = {'Central':['chi', 'cle', 'det', 'ind', 'mil'],\n               'Southwest':['dal', 'hou', 'mem', 'nor', 'sas'],\n               'Southeast':['atl', 'cha', 'mia', 'orl', 'was'],\n               'Northwest':['den', 'min', 'okc', 'por', 'uth'],\n               'Atlantic':['bos', 'bkn',  'nyk', 'phi', 'tor'],\n               'Pacific':['gsw', 'lac', 'lal', 'pho', 'sac']}\n\nNBAREGULAR = [\"2012-11-26\", \"2013-4-17\"] # TIMEZONE ET\n\nCHSTVDICT = {'新浪体育':'Sina Sports', '中央五套':'CCTV5', '广东体育':'Guangdong Sports', 'CNTV':'CNTV', '北京体育':'Beijing Sports', \n             '篮球直播':'lanqiuzhibo', '百视通':'BesTV ', '纬来体育':'VL Sports', 'QQ直播':'QQLIVe', '台':'',\n             '卫视体育台湾':'weishitiyutaiwwan',\n             '无插件':'noplugin', '新浪':'Sina', '比分直播':'LiveScoring' }\n\nDATEPATTERN = ('月', '日')\n\ndef getdivision(tnabb):\n    for k in NBADIVISION.keys():\n        for kk in NBADIVISION[k]:\n            if kk == tnabb:\n                return k\n    return None\n",
+					"file": "/usr/local/Dropbox/Python/GAE/GameReminder/gameinfo.py",
+					"file_size": 3096,
+					"file_write_time": 1359011307000000,
+					"settings":
+					{
+						"buffer_size": 2768,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "#!/usr/bin/python\n# coding=gbk\n\nimport urllib2\nimport os\nfrom sgmllib import SGMLParser\nfrom datetime import * \nfrom pytz.gae import pytz\nfrom pytz import timezone\nimport logging\nimport gameinfo\n#import re\n\n\nclass EspnEntity():\n    __slots__ = ['_datetime', '_guest', '_host', '_awaytv', '_hometv', '_nattv']\n    def __init__(self):\n        self._datetime = datetime.min\n        self._datetime = self._datetime.replace(tzinfo=pytz.utc)\n        self._awaytv = ''\n        self._hometv = ''\n        self._nattv = ''\n\n    def __str__(self):\n        res = ''\n        for member in self.__slots__:\n            try:\n                getattr(self, member)\n            except AttributeError:\n                pass\n                #logging.info(\"NO %s!!!\", member)\n            else:\n                res += member + ': ' + str(getattr(self, member)) + '\\n'\n        return res\n\n    def setdt_et2utc(self, dt_obj):\n        fmt = \"%Y-%m-%d %H:%M:%S %Z%z\"\n        eastern = timezone('US/Eastern')\n        est_dt = eastern.localize(dt_obj) \n        logging.debug(est_dt.strftime(fmt))\n        self._datetime = est_dt.astimezone(pytz.utc)\n        logging.debug(self._datetime.strftime(fmt))\n\n    def getdt_bjt(self):\n        fmt = \"%Y-%m-%d %H:%M:%S %Z%z\"\n        shanghai = timezone('Asia/Shanghai')\n        sh_dt = self._datetime.astimezone(shanghai)\n        logging.debug(sh_dt.strftime(fmt))\n        return sh_dt\n\n        \nclass EspnParser(SGMLParser):\n    def reset(self):\n        self.url='http://espn.go.com/nba/schedule/_/date/20121031'\n        self.gamelist = []\n        self.gameitem = None\n        self.year = '2012'\n        self.is_h1 = False\n        self.is_table = False\n        self.is_date = False\n        self.is_item = False\n        self.is_img = False\n        self.td_cnt = 0\n        self.a_cnt = 0\n\n        SGMLParser.reset(self)\n\n    def geturl(self, week):\n        url='http://espn.go.com/nba/schedule/_/date/'\n        date_begin = datetime.strptime(gameinfo.NBAREGULAR[0], \"%Y-%m-%d\").date()\n        date_end = datetime.strptime(gameinfo.NBAREGULAR[1], \"%Y-%m-%d\").date()\n        #date_end = date(2013, 4, 17)\n        date_begin += timedelta(days=7*week)\n        if date_begin <= date_end:\n            return url + date_begin.strftime(\"%Y%m%d\")\n        else:\n            return None \n\n    def parse(self, data):\n        self.feed(data)\n        self.close()\n\n    def start_h1(self, attrs):\n        for k, v in attrs:\n            if k == 'class' and v == 'h2':\n                self.is_h1 = True\n\n    def end_h1(self):\n        if self.is_h1:\n            self.is_h1 = False       \n\n    def start_table(self, attrs):\n        for k, v in attrs:\n            if k == 'class' and v == 'tablehead':\n                self.is_table = True\n\n    def end_table(self):\n        if self.is_table:\n            self.is_table = False\n\n    def start_tr(self, attrs):\n        if self.is_table:\n            for k, v in attrs:\n                if k == 'class' and v == 'stathead':\n                    self.is_date = True\n                if k == 'class' and (v.find('oddrow') != -1 or v.find('evenrow') != -1):\n                    self.is_item = True\n\n    def end_tr(self):\n        if self.is_date:\n            self.is_date = False\n        if self.is_item:\n            if self.gameitem._datetime.replace(tzinfo=None) == datetime.min:\n                self.gameitem = None\n            else:\n                self.gamelist.append(self.gameitem)\n            logging.info(\"\\n<<<<\\n%s>>>>\", str(self.gameitem))\n            self.gameitem = None\n            self.is_item = False\n            self.td_cnt = 0\n\n    def start_td(self, attrs):\n        self.is_td = True\n        if self.is_item:\n            self.td_cnt += 1\n\n    def end_td(self):\n        if self.is_td:\n            self.is_td = False\n        if self.is_img:\n           self.is_img = False\n\n    def start_a(self, attrs):\n        if self.td_cnt == 1:\n            self.a_cnt += 1\n        self.is_a = True\n    def end_a(self):\n        if self.is_a:\n            self.is_a = False\n        if self.a_cnt == 2:\n            self.a_cnt = 0\n\n    def do_img(self, attrs):\n        if self.td_cnt == 5:\n            self.is_img = True\n            for k, v in attrs:\n                if k == 'alt':\n                    tmp = getattr(self.gameitem, '_nattv')\n                    if len(tmp) > 0:\n                        tmp += ', '\n                    tmp += v\n                    #tmp.strip()\n                    setattr(self.gameitem, '_nattv', tmp.strip())\n\n    def handle_data(self, text):\n        #p = re.compile('.+')\n        #if p.match(text):\n        if self.is_h1:\n            strlist = text.split(',')\n            if strlist[-1]:\n                self.year = strlist[-1].strip()\n        if self.is_date:\n            fmt = \"%Y %B %d\"\n            #logging.info(\"is_date %s \", text)\n            # fmt: Tuesday, October 30\n            strlist = text.split(',')\n            if len(strlist) >= 2:\n                dtstr = str(self.year) + strlist[1]\n                self.date = datetime.strptime(dtstr, fmt).date()\n                #logging.info(\"self.date %s\", self.date)\n        if self.is_item and self.is_td:\n            if not self.gameitem:\n                self.gameitem = EspnEntity()\n            logging.info(\"ZZZ [%s] %s\", self.td_cnt, text)\n            if self.td_cnt == 1:\n                if self.is_a:\n                    #logging.info(\"GHOST [%s] %s\", self.a_cnt, text)\n                    if self.a_cnt == 1:\n                        setattr(self.gameitem, '_guest', text)\n                        #logging.info(getattr(self.gameitem, '_guest'))\n                    elif self.a_cnt == 2:\n                        setattr(self.gameitem, '_host', text)\n                        #logging.info(getattr(self.gameitem, '_host'))\n                    else:\n                        pass\n            elif self.td_cnt == 2:\n                # fmt 7:00 PM\n                fmt = \"%I:%M %p\"\n                if text.upper() == 'TBD':\n                    self.time = datetime.strptime(\"11:11 AM\", fmt).time()\n                else:\n                    self.time = datetime.strptime(text, fmt).time()\n                #logging.info(\"self.time %s\", self.time)\n                self.gameitem.setdt_et2utc(datetime.combine(self.date, self.time))\n            elif self.td_cnt == 3:\n                setattr(self.gameitem, '_awaytv', text)\n            elif self.td_cnt == 4:\n                setattr(self.gameitem, '_hometv', text)\n            elif self.td_cnt == 5:\n                if not self.is_img:\n                    setattr(self.gameitem, '_nattv', text)\n            elif self.td_cnt == 6:\n                pass\n            else:\n                pass\n\nclass SinaEntity():\n    __slots__ = ['_datetime', '_type','_guest', '_host', '_tv']\n    def __init__(self):\n        self._datetime = datetime.min\n        self._datetime = self._datetime.replace(tzinfo=pytz.utc)\n        self._tv = ''\n\n    def __str__(self):\n        res = ''\n        for member in self.__slots__:\n            try:\n                getattr(self, member)\n            except AttributeError:\n                pass\n                #logging.info(\"NO %s!!!\", member)\n            else:\n                res += member + ': ' + str(getattr(self, member)) + '\\n'\n        return res\n\n    def setdt_bj2utc(self, dt_obj):\n        fmt = \"%Y-%m-%d %H:%M:%S %Z%z\"\n        shanghai = timezone('Asia/Shanghai')\n        sh_dt = shanghai.localize(dt_obj) \n        logging.debug(sh_dt.strftime(fmt))\n        self._datetime = sh_dt.astimezone(pytz.utc)\n        logging.debug(self._datetime.strftime(fmt))\n\n    def getdt_bjt(self):\n        fmt = \"%Y-%m-%d %H:%M:%S %Z%z\"\n        shanghai = timezone('Asia/Shanghai')\n        sh_dt = self._datetime.astimezone(shanghai)\n        logging.debug(sh_dt.strftime(fmt))\n        return sh_dt\n\nclass SinaParser(SGMLParser):\n    \"\"\"docstring for SinaParser\"\"\"\n    def reset(self):\n        self.url='http://nba.sports.sina.com.cn/showtv.php'\n        self.gamelist = []\n        self.gameitem = None\n        self.year = '2013'\n        self.datetime = None\n        self.table_cnt = 0\n        self.tr_cnt = 0\n        self.td_cnt = 0\n        self.is_div = False\n        self.is_table = False\n        self.is_tr = False\n        self.is_td = False\n        self.is_a = False\n        SGMLParser.reset(self)\n\n    def parse(self, data):\n        self.feed(data)\n        self.close()        \n    \n    def start_div(self, attrs):\n        for k, v in attrs:\n            if k == 'id' and v == 'main':\n                self.is_div = True\n    def end_div(self):\n        if self.is_div:\n            self.is_div = False\n            self.table_cnt = 0\n\n    def start_table(self, attrs):\n        if self.is_div:\n            for k, v in attrs:\n                if k == 'class' and v == 'text':\n                    self.is_table = True\n                    self.table_cnt += 1\n    def end_table(self):\n        if self.is_table:\n            self.is_table = False \n            #self.table_cnt -= 1\n            self.tr_cnt = 0\n\n    def start_tr(self, attrs):\n        if self.is_table and self.table_cnt == 2:\n            self.is_tr = True\n            self.tr_cnt += 1\n    def end_tr(self):\n        if self.is_tr:\n            self.is_tr = False\n            if self.tr_cnt > 1 and self.td_cnt == 5:\n                if self.gameitem._datetime.replace(tzinfo=None) == datetime.min:\n                    self.gameitem = None\n                else:\n                    self.gamelist.append(self.gameitem)   \n                logging.info(\"\\n<<<<\\n%s>>>>\", str(self.gameitem))\n                self.gameitem = None\n            self.td_cnt = 0\n\n    def start_td(self, attrs):\n        if self.is_tr:\n            self.is_td = True\n            self.td_cnt += 1\n    def end_td(self):\n        if self.is_td:\n            self.is_td = False\n            \n    def start_a(self, attrs):\n        self.is_a = True\n    def end_a(self):\n        if self.is_a:\n            self.is_a = False\n    \n    def handle_data(self, text):\n        if self.tr_cnt >= 2 and self.is_td:\n            #logging.info(\"ZZZ [%d %d] %s\", self.tr_cnt, self.td_cnt, text)\n            #logging.info(\"ZZZ [%d] %s\", self.td_cnt, text)\n            if self.td_cnt == 1:\n                if not self.gameitem:\n                    self.gameitem = SinaEntity()\n\n                fmt = \"%Y %m-%d %H:%M\"\n                #logging.info(\"is_date %s \", text)\n                # fmt: Tuesday, October 30\n                strlist = text.split(' ')\n                if len(strlist) >= 2:\n                    dtstr = str(self.year) + ' ' + strlist[0] + ' ' + strlist[1]\n                    self.datetime = datetime.strptime(dtstr, fmt)\n                    logging.info(\"self.datetime %s\", self.datetime)\n                self.gameitem.setdt_bj2utc(self.datetime)\n            elif self.td_cnt == 2:\n                setattr(self.gameitem, '_type', text)\n            elif self.td_cnt == 3 and self.is_a:\n                try:\n                    #logging.error(gameinfo.NBACHS[28].decode('utf-8').encode('gbk'))\n                    #logging.error('1111' + text.strip().decode(\"gbk\").encode('gbk'))\n                    index = gameinfo.NBACHS.index(text.strip().decode(\"gbk\").encode('utf-8'))\n                    logging.error(index)\n                    setattr(self.gameitem, '_guest', gameinfo.NBATEAM[index])\n                except ValueError:\n                    logging.error(\"guest teamname error %s\", text)\n            elif self.td_cnt == 4 and self.is_a:\n                try:\n                    index = gameinfo.NBACHS.index(text.strip().decode(\"gbk\").encode('utf-8'))\n                    setattr(self.gameitem, '_host', gameinfo.NBATEAM[index])    \n                except ValueError:\n                    logging.error(\"host teamname error %s\", text)\n            elif self.td_cnt == 5 and self.is_a:\n                tvlist = text.split('/')\n                tvTemp = []\n                for item in tvlist:\n                    tvTemp.append(gameinfo.CHSTVDICT[item.decode(\"gbk\").encode('utf-8')])\n                setattr(self.gameitem, '_tv', '/'.join(tvTemp))\n\nclass AzhiboEntity():\n    __slots__ = ['_datetime', '_type','_guest', '_host', '_tv']\n    def __init__(self):\n        self._datetime = datetime.min\n        self._datetime = self._datetime.replace(tzinfo=pytz.utc)\n        self._tv = []\n\n    def __str__(self):\n        res = ''\n        for member in self.__slots__:\n            try:\n                getattr(self, member)\n            except AttributeError:\n                pass\n                #logging.info(\"NO %s!!!\", member)\n            else:\n                res += member + ': ' + str(getattr(self, member)) + '\\n'\n        return res\n\n    def setdt_bj2utc(self, dt_obj):\n        fmt = \"%Y-%m-%d %H:%M:%S %Z%z\"\n        shanghai = timezone('Asia/Shanghai')\n        sh_dt = shanghai.localize(dt_obj) \n        logging.debug(sh_dt.strftime(fmt))\n        self._datetime = sh_dt.astimezone(pytz.utc)\n        logging.debug(self._datetime.strftime(fmt))\n\n    def getdt_bjt(self):\n        fmt = \"%Y-%m-%d %H:%M:%S %Z%z\"\n        shanghai = timezone('Asia/Shanghai')\n        sh_dt = self._datetime.astimezone(shanghai)\n        logging.debug(sh_dt.strftime(fmt))\n        return sh_dt\n\nclass AzhiboParser(SGMLParser):\n    \"\"\"docstring for AzhiboParser\"\"\"\n    def reset(self):\n        self.url='http://www.azhibo.com/nbazhibo'\n        self.gamelist = []\n        self.gameitem = None\n        self.year = '2013'\n        #self.datetime = None\n        self.is_date = False\n        self.is_time = False\n        self.a_cnt = 0\n        self.is_div = False\n        self.div_cnt = 0\n        self.div_box_cnt = 0\n        self.is_a = False\n        self.is_li = False\n        SGMLParser.reset(self)\n\n    def parse(self, data):\n        self.feed(data)\n        self.close()        \n    \n    def start_div(self, attrs):\n        if self.div_cnt > 0:\n            self.div_cnt += 1\n        #logging.info('99999999999999 %d', self.div_cnt)\n        for k, v in attrs:\n            if k == 'class':\n                if v == 'box':\n                    self.div_cnt = 1\n                    self.div_box_cnt += 1\n                elif v == 'conWrap':\n                    self.is_div = True\n    def end_div(self):\n        if self.div_cnt > 0:\n            self.div_cnt -= 1;\n        elif self.div_cnt == 0 and self.is_div and self.div_box_cnt > 1:\n            self.is_div = False\n        #logging.info('88888888888888 %d', self.div_cnt)\n\n    def start_h2(self, attrs):\n        #logging.info(\"UUUUUUUUUUUUUUUU %s \", self.is_div)\n        if self.div_cnt >= 1:\n            for k, v in attrs:\n                #logging.info(\"[%s] %s\", k, v)\n                if k == 'class' and v == 'box-title':\n                    #logging.info(\"XXXXXXZZZZZZZZZZZZZ\")\n                    self.is_date = True\n    def end_h2(self):\n        if self.is_date:\n            self.is_date = False\n\n    def  start_li(self, attrs):\n        #logging.info(\"77777777777777 %d --- %s\", self.div_cnt, self.is_div)\n        if self.div_cnt >= 1 and self.is_div:\n            self.is_li = True\n    def  end_li(self):\n        if self.is_li:\n            #logging.info(\"0000000000000000000000\")\n            self.is_li = False\n            self.a_cnt = 0\n            try:\n                if self.gameitem._datetime.replace(tzinfo=None) == datetime.min:\n                    self.gameitem = None\n                else:\n                    self.gamelist.append(self.gameitem)   \n                logging.info(\"\\n<<<<\\n%s>>>>\", str(self.gameitem))\n                #logging.info(self.gameinfo._host)\n                #logging.info(\"888888888888888888 %s\" ,self.gameinfo._guest)\n                self.gameitem = None\n            except AttributeError:\n                logging.info(\"Push gameitem error\")\n\n    def start_span(self, attrs):\n        if self.is_li:\n            for k, v in attrs:\n                if k == 'class' and v == 'time' :\n                    self.is_time = True\n    def end_span(self):\n        if self.is_time:\n            self.is_time = False\n\n    def start_a(self, attrs):\n        #logging.info(\"^^^^^^^^^^^^^^^^^^^^^^ %s\", self.is_li)\n        if self.is_li:\n            #logging.info(\"PPPPPPPPPPPPPPPPPPP%d\", self.a_cnt)\n            self.a_cnt += 1\n        if self.a_cnt > 2:\n            for k, v in attrs:\n                if k == 'href':\n                    self.href = v\n    def end_a(self):\n        self.href = ''\n        pass\n\n    def handle_data(self, text):\n        if self.is_date:\n            text = ' '.join(text.split())\n            logging.info(\"@@@@%s [date]%s\", text.decode('utf-8').encode('gbk'), self.is_date)   \n            fmt = \"%Y %m-%d\"\n            #logging.info(\"is_date %s \", text)\n            # fmt: Tuesday, October 30\n            strlist = text.split(' ')\n            for i in strlist:\n                logging.info(\"****%s!!!!\", i.decode('utf-8').encode('gbk'))\n            tmp = strlist[0].decode('utf-8');\n            #logging.info(gameinfo.DATEPATTERN[0].decode('utf-8').encode('gbk'))\n            #print tmp.encode('gbk')\n            tmp = tmp.replace(gameinfo.DATEPATTERN[0].decode('utf-8'), u'-')\n            tmp = tmp.replace(gameinfo.DATEPATTERN[1].decode('utf-8'), '')\n            tmp = self.year + ' ' + tmp\n            self.date = datetime.strptime(tmp, fmt).date()\n        if self.is_time:\n            #logging.info('$$$$$$$$$$$$$$$$$$$$$')\n            text = ' '.join(text.split())\n            if not self.gameitem:\n                self.gameitem = AzhiboEntity()\n            fmt = '%H:%M'\n            self.time = datetime.strptime(text, fmt).time()\n            self.gameitem.setdt_bj2utc(datetime.combine(self.date, self.time))\n\n        if self.a_cnt == 2:\n            logging.info(\"######%s######\", text.decode('utf-8').encode('gbk'))\n            strlist = text.split('-')\n            if len(strlist) >= 2:\n                strlist[0] = ' '.join(strlist[0].split())\n                strlist[1] = ' '.join(strlist[1].split())\n                logging.info (\"666666%s666666\", strlist[0].decode('utf-8').encode('gbk'))\n                host = strlist[0]\n                logging.info (\"55555%s55555\", host.decode('utf-8').encode('gbk'))\n                if len(host.split(' ')) > 1:\n                    host = host.split(' ')[-1] \n                # TODO: full-width bracket\n                guest = (strlist[1].split('\\xa3\\xa9'))[-1]\n                guest = (strlist[1].split(' '))[-1]\n                logging.info (\"4444%s - %s4444\", guest.decode('utf-8').encode('gbk') , host.decode('utf-8').encode('gbk'))\n                try:\n                    index = gameinfo.NBACHS.index(guest)\n                    logging.error(index)\n                    setattr(self.gameitem, '_guest', gameinfo.NBATEAM[index])\n                    #logging.info(\";;;;; %s\", gameinfo.NBATEAM[index])\n                except ValueError:\n                    logging.error(\"guest teamname error %s\", text)\n                try:\n                    index = gameinfo.NBACHS.index(host)\n                    #logging.info(\";;;; %s \", gameinfo.NBATEAM[index])\n                    setattr(self.gameitem, '_host', gameinfo.NBATEAM[index])    \n                    logging.info(self.gameitem._host)\n                except ValueError:\n                    logging.error(\"host teamname error %s\", text)\n        elif self.a_cnt > 2 and self.a_cnt < 6:\n            if len(text.strip()) > 0:\n                logging.info(\"######%s \", text.decode('utf-8').encode('gbk'))\n                tmp = text.strip()\n                if len(tmp) > 0 and tmp[-1] == ')':\n                    if tmp.decode('utf-8') in gameinfo.CHSTVDICT:\n                        return\n                    cnt = 0\n                    for item in gameinfo.CHSTVDICT:\n                        cnt += 1\n                        tmp = tmp.replace(item, gameinfo.CHSTVDICT[item])\n                    tvItem = []\n                    tvItem.append(tmp)\n                    if self.href[0:7] == 'http://':\n                        self.href = self.href[7:]\n                    if self.href[0:7] == '/zhibo/':\n                        self.href = self.href[7:]                   \n                    tvItem.append(self.href)\n                    #setattr(self.gameitem, '_tv', text.strip())\n                    self.gameitem._tv.append(tvItem)    \n\nclass MyCrawler():\n    def do_crawl(self, dest, week=0):\n        if dest.upper() == 'ESPN':\n            res = self.crawl_espn_with_week(week)\n        elif dest.upper() == 'ESPNALL':\n            res = self.crawl_espn_all()\n        elif dest.upper() == 'SINA':\n            res = self.crawl_sina()\n        elif dest.upper() == 'AZHIBO':\n            res = self.crawl_azhibo()\n        return res\n    def crawl_espn(self):\n        espnparser = EspnParser()\n        response = urllib2.urlopen(espnparser.url, timeout = 15)\n        if response:\n            content = response.read()\n            #logging.info(content)\n            espnparser.parse(content)\n            logging.info(len(espnparser.gamelist))\n            #for item in espnparser.gamelist:\n            #    logging.info(\"do_crawl %s\", str(item))\n            return espnparser.gamelist\n        else:\n            logging.info('timeout of opening %s', espnparser.url)\n    def crawl_espn_with_week(self, week):\n        espnweekparser = EspnParser()\n        dest_url = espnweekparser.geturl(week)\n        logging.info(\"******%s*****\", dest_url)\n        if dest_url:\n            response = urllib2.urlopen(dest_url, timeout=15)\n            if response:\n                content = response.read()\n                espnweekparser.parse(content)\n        return espnweekparser.gamelist\n\n    def crawl_espn_all(self):\n        espnallparser = EspnParser()\n        i = 0\n        allgamelist = []\n        while True:\n            dest_url = espnallparser.geturl(i)\n            #print dest_url\n            logging.info(\"******%s*****\", dest_url)\n            if not dest_url:\n                break\n            response = urllib2.urlopen(dest_url, timeout=15)\n            if response:\n                content = response.read()\n                espnallparser.parse(content)\n                if espnallparser.gamelist:\n                    allgamelist.extend(espnallparser.gamelist)\n            else:\n                logging.info('timeout of opening %s', dest_url)\n            i += 1\n        return allgamelist\n\n    def crawl_sina(self):\n        sinaparser = SinaParser()\n        response = urllib2.urlopen(sinaparser.url, timeout = 15)\n        if response:\n            content = response.read()\n            #logging.info(content)\n            sinaparser.parse(content)\n            logging.info(len(sinaparser.gamelist))\n            #for item in sinaparser.gamelist:\n            #    logging.info(\"do_crawl %s\", str(item))\n            return sinaparser.gamelist\n        else:\n            logging.info('timeout of opening %s', sinaparser.url)\n\n    def crawl_azhibo(self):\n        azhiboparser = AzhiboParser()\n        response = urllib2.urlopen(azhiboparser.url, timeout = 15)\n        if response:\n            content = response.read()\n            #logging.info(content)\n            azhiboparser.parse(content)\n            logging.info(len(azhiboparser.gamelist))\n            #for item in sinaparser.gamelist:\n            #    logging.info(\"do_crawl %s\", str(item))\n            return azhiboparser.gamelist\n        else:\n            logging.info('timeout of opening %s', azhiboparser.url)\n    \n",
+					"file": "/usr/local/Dropbox/Python/GAE/GameReminder/myparser.py",
+					"file_size": 24129,
+					"file_write_time": 1359011695000000,
+					"settings":
+					{
+						"buffer_size": 23321,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"upd",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						":4",
+						"Set Syntax: camlp4"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/dalang/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/dalang/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/C/Documents and Settings/dongguoxing/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/C/Documents and Settings/dongguoxing/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"gbk",
+					"cursor",
+					"from myapp import app\n",
+					"font",
+					"false",
+					"scheme",
+					"binary",
+					"contains",
+					"ing",
+					"binar",
+					"binary",
+					"true",
+					"show",
+					"tab",
+					"high",
+					"bold",
+					"binary",
+					"Show",
+					"color",
+					"hile",
+					"While",
+					"show",
+					"file",
+					"show",
+					"system",
+					"pplic",
+					"18",
+					"u",
+					"a",
+					"false",
+					"color",
+					"ignored_packages",
+					"ignore"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": false
+			},
+			"folders":
+			[
+				{
+					"path": "/usr/local/Dropbox/Python/GAE/GameReminder"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/usr/local/Dropbox/Python/GAE/GameReminder/gameinfo.py",
+							"settings":
+							{
+								"buffer_size": 2768,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2607,
+										2607
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 378.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/usr/local/Dropbox/Python/GAE/GameReminder/myparser.py",
+							"settings":
+							{
+								"buffer_size": 23321,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										372,
+										372
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 22.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 38.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,0,0,1280,800",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 4,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
